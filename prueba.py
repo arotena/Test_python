@@ -9,6 +9,11 @@ class TestStringMethods(unittest.TestCase):
 
 def factorial(n):
     return 1 if n < 1 else n * factorial(n-1)
+def suma(n,p):
+	return n+p
+def resta(n,p):
+	return n-p
+
 
 if __name__ == '__main__':
     unittest.main()
