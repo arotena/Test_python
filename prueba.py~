@@ -4,7 +4,7 @@ import unittest
 
 class TestStringMethods(unittest.TestCase):
     
-    def Test_factorial(self):
+    def test_factorial(self):
         self.assertEqual(1, factorial(1))
 
 def factorial(n):
