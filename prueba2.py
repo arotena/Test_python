@@ -1,4 +1,6 @@
-import hashlibimport unittest class Foo(object):
+import hashlib
+import unittest 
+class Foo(object):
  def gravatar_url(self, email):  hash = hashlib.md5(email.lower()).hexdigest()  return "https://www.gravatar.com/avatar/" + hash
 class FooTestCase(unittest.TestCase):
  def setUp(self):
