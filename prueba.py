@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-class TestStringMethods(unittest.TestCase):
+class TestFunciones(unittest.TestCase):
     
     def test_factorial(self):
         self.assertEqual(1, factorial(1))
